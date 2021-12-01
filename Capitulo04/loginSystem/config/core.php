@@ -9,7 +9,7 @@ session_start();
 date_default_timezone_set('Asia/Manila');
  
 // home page url
-$home_url="http://loginsystem.local/loginSystem/";
+$home_url="http://gnovel.ifc33b.cifpfbmoll.eu/dwes_2021-gasparnovel/Capitulo04/loginsystem.local/loginSystem/";
  
 // page given in URL parameter, default page is one
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
