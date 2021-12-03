@@ -44,4 +44,4 @@
     $o = new ProbandoTraits();
     // llamamos a la funcion
     $o->decirAdios();
-?>#
+?>
