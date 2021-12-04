@@ -74,7 +74,7 @@ Capitulo03
     7. autoload_namespace
     8. sql_autoload_register
 
-    Capitulo04
+Capitulo04
 - formulario
     1. form_archivos
 - FundamentosPHP_ch09_tutor
