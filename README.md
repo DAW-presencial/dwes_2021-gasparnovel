@@ -54,6 +54,25 @@ Capitulo02
 - sample_var_globals
 - substr
 - tabla_de_multiplicar
+
+Capitulo03
+- autoload
+    1. clases
+        - Pajaro
+        - Persona
+    2. main_autoload
+- autoload_tutor
+    1. clases
+        - Persona
+    2. clases2
+        - Persona2
+    3. psr4
+        - psr4-loader-clousure
+    4. autocarga1
+    5. autocarga2
+    6. autocarga3
+    7. autoload_namespace
+    8. sql_autoload_register
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
