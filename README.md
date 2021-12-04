@@ -73,6 +73,64 @@ Capitulo03
     6. autocarga3
     7. autoload_namespace
     8. sql_autoload_register
+
+    Capitulo04
+- formulario
+    1. form_archivos
+- FundamentosPHP_ch09_tutor
+    1. Ejemplos de formularios
+        - photos
+            1. IMG
+        - 01_web_form.html
+        - 01_web_form.php
+        - 02_registrationphp
+        - 03_registro_procesar.php
+        - 03_registro.php
+        - 04_registro_multi_procesar.php
+        - 04_registro_multi_procesar.html
+        - 05_registration_multistep.php
+        - 06_photo_upload.php
+        - asterisk.gif
+        - common.css
+- curl
+- htmlspecialchars
+- modal
+- pop_up
+- popup_form
+
+Capitulo05
+- evaluables
+    1. loginSystem
+- referencias
+    1. igualdad_entre_objetos
+    2. referencias
+- traits
+    1. cambio_visibilidad
+    2. metodos_abstractos
+    3. metodos_estaticos
+    4. procedencia_metodo_trait
+    5. ProbandoTraits
+    6. sobreesctritura_de_metodo
+    7. sobreesctritura_de_variable
+    8. traits_anidados
+- abstratc
+- clase_anonima
+- clase_compuesta
+- clase_con_func_anidada
+- constructor
+- destructor
+- final_function
+- func_estaticas
+- func_magicas
+- get_object_vars
+- instanceof
+- interfaces
+- propiedades
+- serializacion
+- Sobrecarga_No_00
+- Sobrecarga1
+- Sobrecarga2
+- static_enlaces_dinamicos
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
