@@ -4,6 +4,56 @@
 - 5.php
 - README.md
 
+Capitulo02
+- arrays
+    1. arrays_ejemplos
+- condicionales 
+    1. curiosidad
+    2. if_ambito
+    3. if_evaluando_ORs
+    4. if_intercalando_html
+- constantes
+    1. prueba
+        - embebido
+    2. definicion_de_constantes
+    3. magicas
+- evaluables 
+    1. agenda
+- funciones 
+    1. factorial
+    2. fibonacci_iterativo
+    3. fnc_retornando_ref_2
+    4. fnc_retornando_refeferencias
+    5. global_local_param
+    6. no_case_sensitive
+    7. num_funciones_php
+    8. parametros_opcionales
+    9. parametrosDefault
+    10. pasoPorReferencia
+    11. prueba
+- include
+    1. fichero1
+    2. fichero2
+- strings
+    1. substr
+- variables
+    1. ambito_de_variables
+    2. unset
+- 1er_form_con_validacion
+- 1er_form_sin_validacion
+- agenda_sesiones
+- bucle_infinito
+- busquedaBinaria
+- common.coss 
+- contadorCoockie
+- estados_de_una_vairable_simple
+- estados_de_una_variable
+- Ordenacion_assert
+- Ordenacion
+- procesar_form
+- sample_var_globals
+- substr
+- tabla_de_multiplicar
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
