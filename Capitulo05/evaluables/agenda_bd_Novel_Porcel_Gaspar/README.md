@@ -18,10 +18,10 @@
 
 - ### Agregar Contactos:
 
-![Agregar Contactos](/img/agregar_contactos.PNG)
+![Agregar Contactos](./img/agregar_contactos.PNG)
 
 - ### Contactos:
-![Contactos](/img/contactos.PNG)
+![Contactos](./img/contactos.PNG)
 
 - ### Excepciones:
-![Excepciones](/img/excepciones.PNG)
+![Excepciones](./img/excepciones.PNG)
