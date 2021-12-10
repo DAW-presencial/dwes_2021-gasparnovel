@@ -43,7 +43,7 @@ class Contacto
     {
         // Guarda el atributo privado
         $conn = $this->db;
-        // Variable que guarda una query que actualiza un contacto
+        // Variable que guarda una query que actualiza el telefono de un contacto
         $stmt_actualizar = "update contacto set nombre = '$this->nombre', 
                     primer_apellido = '$this->primer_apellido', segundo_apellido = '$this->segundo_apellido', 
                     telefono = '$this->telefono' where nombre = '$this->nombre' and primer_apellido = '$this->primer_apellido' 

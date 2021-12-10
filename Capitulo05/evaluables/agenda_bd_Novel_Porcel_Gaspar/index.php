@@ -30,6 +30,12 @@
                     <input class="boton" type="submit" name="mostrar" value="Mostrar">
                 
                 </form>
+
+                <p>- Añadir: Para añadir un contacto hay que rellenar todos los campos y el teléfono tiene que tener 9 digitos y pulsamos el boton.</p>
+                <p>- Actualizar: Para actualizar escribimos todos los campos que coincidan con el contacto menos el que se quiere actualizar y pulsamos el boton.</p>
+                <p>- Eliminar: Para eliminar escribimos el número del contacto a eliminar y pulsamos el boton.</p>
+                <p>- Mostrar: Simplemente pulsamos el boton.</p>
+
             </div>
         </body>
     </html>
