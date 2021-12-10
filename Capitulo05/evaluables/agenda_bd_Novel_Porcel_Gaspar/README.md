@@ -10,6 +10,18 @@
 
 - Mostrar: Simplemente pulsamos el boton.
 
-### Servidor: 
+## Servidor: 
 
 - Para probar la funcionalidad de la agenda hay que ir al siguiente enlace: [agenda_bd_Novel_Porcel_Gaspar](http://gnovel.ddns.net/Capitulo05/evaluables/agenda_bd_Novel_Porcel_Gaspar/)
+
+## Imagenes del diseño: 
+
+- ### Agregar Contactos:
+
+![Agregar Contactos](/img/agregar_contactos.PNG)
+
+- ### Contactos:
+![Contactos](/img/contactos.PNG)
+
+- ### Excepciones:
+![Excepciones](/img/excepciones.PNG)
