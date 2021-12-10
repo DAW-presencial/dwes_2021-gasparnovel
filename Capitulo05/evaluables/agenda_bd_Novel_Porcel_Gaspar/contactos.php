@@ -20,9 +20,9 @@
             {
 
                 // Con los metodos eliminamos caracteres especiales en entidades HTML, filtramos el POST y lo guardamos en variables
-                $nombre = htmlspecialchars(filter_input(INPUT_POST, 'nombre',));
-                $primer_apellido = htmlspecialchars(filter_input(INPUT_POST, 'primer_apellido',));
-                $segundo_apellido = htmlspecialchars(filter_input(INPUT_POST, 'segundo_apellido',));
+                $nombre = htmlspecialchars(filter_input(INPUT_POST, 'nombre'));
+                $primer_apellido = htmlspecialchars(filter_input(INPUT_POST, 'primer_apellido'));
+                $segundo_apellido = htmlspecialchars(filter_input(INPUT_POST, 'segundo_apellido'));
                 $telefono = trim($_POST['telefono']);
                 // Creamos un nuevo contacto
                 $contacto = new Contacto($db->getConnection(),$nombre, $primer_apellido, $segundo_apellido, $telefono);
