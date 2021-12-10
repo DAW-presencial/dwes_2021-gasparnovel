@@ -11,8 +11,9 @@
 - Mostrar: Simplemente pulsamos el boton.
 
 ## Servidor: 
+- No he conseguido usar la base de datos en remoto por lo que en local hay que ejecutar query.sql para hacer pruebas.
 
-- Para probar la funcionalidad de la agenda hay que ir al siguiente enlace: [agenda_bd_Novel_Porcel_Gaspar](http://gnovel.ddns.net/Capitulo05/evaluables/agenda_bd_Novel_Porcel_Gaspar/)
+- Para probar la funcionalidad de la agenda tendriamos que ir al siguiente enlace: [agenda_bd_Novel_Porcel_Gaspar](http://gnovel.ddns.net/Capitulo05/evaluables/agenda_bd_Novel_Porcel_Gaspar/)
 
 ## Imagenes del diseño: 
 
