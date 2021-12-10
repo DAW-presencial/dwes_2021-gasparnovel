@@ -31,10 +31,10 @@ class Contacto
             // ejecuta la variable
             $conn->exec($stmt_insert);
             // devuelve el texto
-            return " y se ha agregado el contacto";
+            return "<span class='check'> y se ha agregado el contacto </span>";
             // atrapa el error
         } catch (PDOException $PDOException) {
-            return ", pero hay un ERROR!: " . $PDOException->getMessage();
+            return "<span class='error'> , pero hay un ERROR!: </span>" . $PDOException->getMessage();
         }
     }
 
@@ -52,10 +52,10 @@ class Contacto
         try {
             $conn->exec($stmt_actualizar);
             // devuelve el texto
-            return " y se ha actualizado el contacto";
+            return "<span class='check'> y se ha actualizado el contacto </span>";
             // atrapa el error
         } catch (PDOException $PDOException) {
-            return ", pero hay un ERROR!: " . $PDOException->getMessage();
+            return "<span class='error'> , pero hay un ERROR!: </span>" . $PDOException->getMessage();
         }
     }
 
@@ -70,10 +70,10 @@ class Contacto
         try {
             $conn->exec($stmt_eliminar);
             // devuelve el texto
-            return " y se ha eliminado el contacto";
+            return "<span class='check'> y se ha eliminado el contacto </span>";
             // atrapa el error
         } catch (PDOException $PDOException) {
-            return ", pero hay un ERROR!: " . $PDOException->getMessage();
+            return "<span class='error'> , pero hay un ERROR!: </span>" . $PDOException->getMessage();
         }
     }
 
@@ -85,30 +85,32 @@ class Contacto
 
         // Guarda la funcion
         $conn = $db->getConnection();
-        echo " y se muestran los contactos:";
         // Variable que guarda una query que selecciona
         $stmt_select = $conn->query('select nombre, primer_apellido, segundo_apellido, telefono from contacto');
         // intenta
         try {
+            echo "<span class='check'> y se muestran los contactos: </span>";
             echo "<h1><br>CONTACTOS</h1><br>";
-            echo "<table>";
-            echo "<thead>";
-            echo "<tr>";
-            echo "<th>Nombre</th>";
-            echo "<th>Primer apellido</th>";
-            echo "<th>Segundo apellido</th>";
-            echo "<th>Telefono</th>";
+            echo "<div class='contenedorTabla'>";
+            echo "<table class='tabla'>";
+            echo "<thead class='thead'>";
+            echo "<tr class='tr'>";
+            echo "<th class='th'>Nombre</th>";
+            echo "<th class='th'>Primer apellido</th>";
+            echo "<th class='th'>Segundo apellido</th>";
+            echo "<th class='th'>Telefono</th>";
             echo "</tr>";
             echo "</thead>";
-            echo "<tbody>";
+            echo "<tbody class='tbody'>";
             while ($row = $stmt_select->fetch()) {
-                echo "<tr><td> " . $row['nombre'] . "</td><td> " . $row['primer_apellido'] . "</td><td> " . $row['segundo_apellido'] . "</td><td>" . $row['telefono'] . "</td> </tr>";
+                echo "<tr><td class='td'> " . $row['nombre'] . "</td><td class='td'> " . $row['primer_apellido'] . "</td><td class='td'> " . $row['segundo_apellido'] . "</td><td class='td'>" . $row['telefono'] . "</td> </tr>";
             }
             echo "</tbody>";
             echo "</table>";
+            echo "</div>";
             // atrapa el error
         } catch (PDOException $PDOException) {
-            return ", pero hay un ERROR!: " . $PDOException->getMessage();
+            return "<span class='error'> , pero hay un ERROR!: </span>" . $PDOException->getMessage() . "";
         }
     }
 }

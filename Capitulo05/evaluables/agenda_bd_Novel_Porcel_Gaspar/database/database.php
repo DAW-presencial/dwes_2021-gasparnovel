@@ -22,10 +22,10 @@ class Database
             // mete en la variable los atributos
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             echo "<br>";
-            echo "Conexión realizada con la base de datos";
+            echo "<span class='check'>Conexión realizada con la base de datos</span>";
         // capta el error y lo procesa 
         } catch (PDOException $exception) {
-            echo "Connection error: " . $exception->getMessage();
+            echo "<span class='error'> Hay un ERROR!: </span>" . $exception->getMessage();
         }
         // devuelve $conn
         return $conn;

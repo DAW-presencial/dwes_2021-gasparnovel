@@ -1,12 +1,10 @@
 
-/* Especificamos las variables */
+/* Especificamos las variables para los colores*/
 :root {
-    --primary: #7b2cbf;    
-    --primaryVariant: #3D1660;
-    --secondary: #2cb2bf;
     --secondaryVariant: #279CA7;
+    --error: #d1072c;
 }
-
+/* diseño pagina */
 body {
     background-color: rgba(24, 152, 156, 0.5);
     color: white;
@@ -20,7 +18,7 @@ h1 {
     text-decoration: underline;
     text-shadow: 3px 1px 1px var(--secondaryVariant);
 }
-
+/* diseño formulario */
 label {
     text-shadow: 3px 1px 1px var(--secondaryVariant);
 
@@ -76,12 +74,43 @@ p {
     padding: 20px;
     background: var(--secondaryVariant);
 }
-
-table { 
+/* diseño tabla */
+.contenedorTabla {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 1vw;
 }
+
+.tabla {
+    color: white;
+    width: 700px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.055);
+}
+/* diseño tabla excepciones */
+
+table {
+    width: 700px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    background-color: orange;
+    color: black;
+}
+
+th{
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+
+td {
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0.185);
+    text-align: center;
+}
+
+thead {
+    background-color: var(--secondaryVariant);
+}
+/* diseño boton volver */
 .volver {
     border-radius: 5px;
     width: 11vh;
@@ -103,4 +132,21 @@ table {
     background: white;
     color: var(--secondaryVariant);
 }
+/* diseño mensajes */
+.check {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin-bottom: 2vw;
+    background-color: var(--secondaryVariant);
+}
+
+.error {
+    font-weight: bold;
+    color:  var(--error);
+    margin-bottom: 2vw;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
 
