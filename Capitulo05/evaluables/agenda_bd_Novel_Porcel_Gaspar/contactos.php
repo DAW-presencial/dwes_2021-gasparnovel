@@ -53,7 +53,9 @@
                     echo Contacto::mostrar();
                 }
             ?>
+            <div class="botones">
                 <a class="volver" href="index.php">Volver</a>
+            </div>
         </body>
     </html>
 

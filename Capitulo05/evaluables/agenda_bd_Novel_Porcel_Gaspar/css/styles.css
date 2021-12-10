@@ -1,0 +1,106 @@
+
+/* Especificamos las variables */
+:root {
+    --primary: #7b2cbf;    
+    --primaryVariant: #3D1660;
+    --secondary: #2cb2bf;
+    --secondaryVariant: #279CA7;
+}
+
+body {
+    background-color: rgba(24, 152, 156, 0.5);
+    color: white;
+}
+
+h1 {
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+    padding-top: 3vw;
+    text-decoration: underline;
+    text-shadow: 3px 1px 1px var(--secondaryVariant);
+}
+
+label {
+    text-shadow: 3px 1px 1px var(--secondaryVariant);
+
+}
+.inputs {
+    display: flex;
+    padding-left: 35VW;
+    padding-right: 35VW;
+    flex-direction: column;
+    gap: 1vh;
+    font-weight: bold;
+    font-size: 2vh;
+    padding-top: 1vw;
+
+}
+
+.botones {
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3vh;
+    font-weight: bold;
+}
+
+.boton {
+    border-radius: 5px;
+    width: 11vh;
+    height: 4vh;
+    font-weight: bold;
+    border: 1px solid white;
+    transition: all 300ms ease;
+    background: var(--secondaryVariant);
+}
+
+
+.boton:hover {
+    border: 1px solid black;
+    background: white;
+    color: var(--secondaryVariant);
+}
+
+.intrucciones {
+    padding-left: 35VW;
+    padding-right: 35VW;
+}
+
+p { 
+    justify-content: center;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 20px;
+    background: var(--secondaryVariant);
+}
+
+table { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.volver {
+    border-radius: 5px;
+    width: 11vh;
+    height: 4vh;
+    font-weight: bold;
+    border: 1px solid white;
+    transition: all 300ms ease;
+    background: var(--secondaryVariant);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volver:hover {
+    border: 1px solid black;
+    background: white;
+    color: var(--secondaryVariant);
+}
+
