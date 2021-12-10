@@ -4,12 +4,13 @@ class Database
 {
     // propiedaes privadas
     private const HOST = "localhost";
-    private const DBNAME = "databaseAgenda";
+    private const DBNAME = "agenda";
     private const USERNAME = "gaspar";
     private const PASSWORD = "mysqlroot";
     public static $conn;
+
     // contructor vacio
-    private function __construct()
+    public function __construct()
     {
     }
     // funcion estatica que permite la conexion con la database
@@ -20,10 +21,11 @@ class Database
             $conn = new PDO("mysql:host=" . Database::HOST . ";dbname=" . Database::DBNAME, Database::USERNAME, Database::PASSWORD);
             // mete en la variable los atributos
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Conexión realizada";
+            echo "<br>";
+            echo "Conexión realizada con la base de datos";
         // capta el error y lo procesa 
         } catch (PDOException $exception) {
-            echo "Error de conexión!: " . $exception->getMessage();
+            echo "Connection error: " . $exception->getMessage();
         }
         // devuelve $conn
         return $conn;
